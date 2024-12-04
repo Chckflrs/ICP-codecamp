@@ -1,0 +1,97 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+section {
+    padding: 50px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+.timeline {
+    position: relative;
+}
+
+.timeline-item {
+    position: relative;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.timeline-item:last-child {
+    border-bottom: none;
+}
+
+.timeline-item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background-color: #ddd;
+}
+
+.timeline-item:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    transform: translateY(-50%);
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #333;
+    border-color: #333;
+}
+
+.btn-primary:hover {
+    background-color: #111;
+    border-color: #111;
+}
